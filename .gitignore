@@ -1,0 +1,45 @@
+*.DS_Store
+*.class
+*.db
+*.zip
+*.txt
+*.pdf
+*.log
+*.log.*
+slides
+jar-libs
+.data/
+*/.data/
+*/logs/
+*bak
+
+#ignore target under current directory and all subdirectories:
+target/
+*/target/
+test-output/
+*/test-output/
+
+# for eclipse
+.project
+*/.project
+.classpath
+*/.classpath
+.settings
+*/.settings
+.springBeans
+*/.springBeans
+
+# for IntelliJ Idea
+*.iml
+.idea
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
